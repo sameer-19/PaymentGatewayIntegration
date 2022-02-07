@@ -1,0 +1,203 @@
+*{
+    font-family: 'Gideon Roman', cursive;
+}
+.newdonate{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+}
+.newdonate img{
+    height: 100px;
+    width: 100px;
+}
+
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+
+.navlink{
+    margin: 10px;
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+}
+
+.navlink:hover{
+    background-color: red;
+}
+
+.idx{
+    background-image: linear-gradient(45deg,blue,rgb(238, 20, 56));
+    font-size: 60px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.idx p{
+    font-size: 38px;
+}
+
+.Box{
+    display: flex;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+.idxBox{
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: rgb(81, 85, 85);
+    color: white;
+}
+
+.donate{
+    margin-left: 45%;
+}
+
+.button{
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+    background-image: linear-gradient(60deg,rgb(38, 208, 230),rgb(44, 230, 59));
+}
+
+#btn-1{
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#btn-2{
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+#btn-3{
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.img{
+    height: 253px;
+    width: 450px;
+    border: 3px solid red;
+}
+
+/* about Style begins */
+.about{
+    background-image: linear-gradient(70deg,blue,rgb(238, 20, 56));
+    color: white;
+}
+
+.aboutHead{
+    text-align: center;
+    font-size: 50px;
+    background-image: linear-gradient(100deg,rgb(86, 90, 90),rgb(53, 43, 45));
+}
+
+.mission{
+    height: 200px;
+}
+
+.vision,.values{
+    background-image: linear-gradient(100deg,rgb(86, 90, 90),rgb(53, 43, 45));
+    height: 200px;
+}
+.vision p{
+    margin: 10% auto;
+}
+.Head{
+    font-size: xx-large;
+    text-align: center;
+}
+.list ul{
+    text-align: center;
+    list-style: none;
+    font-size: x-large;
+}
+
+.me{
+    background-image: linear-gradient(100deg,rgb(250, 27, 11),rgb(250, 8, 60));
+    text-align: center;
+}
+
+.me a:link{
+    color: white;
+    text-decoration: none;
+}
+.me a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.me a:visited{
+    color: green;
+    text-decoration: none;
+}
+.me a:active{
+    color: yellow;
+    text-decoration: none;
+}
+
+.about p{
+    height: 170px;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+}
+
+/* about Style ends */
+
+/* Contacts Style begins*/
+.head {
+    text-align: center;
+}
+
+.query{
+    position: relative;
+    margin: 50px auto;
+    height: 500px;
+    width: 500px;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.query form{
+    margin: 20px auto;
+    width: 400px;
+    font-size: xx-large;
+}
+
+.inputpara{
+    height: 100px;
+    width: auto;
+}
+
+.contactSubmit{
+    margin: 10px auto;
+    padding: auto;
+    height: 60px;
+    width: auto;
+}
+/* contact style ends */
+
+
+footer{
+    background-color: black;
+    color: white;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
